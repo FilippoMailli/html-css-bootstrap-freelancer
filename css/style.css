@@ -63,3 +63,19 @@ header {
     color: white;
     border-radius: 5px;
 }
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #1abc9c;
+}
+
+.navbar-default .navbar-toggle {
+    background-color: #1abc9c;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #148f77;
+}
