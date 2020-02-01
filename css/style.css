@@ -1,6 +1,30 @@
-/* header {
-    height: 50px;
-} */
+.ms--bg-dark {
+    background-color: #2c3e50;
+    color: white;
+}
+
+.ms--bg-light {
+    background-color: #1abc9c;
+    color: white;
+}
+
+.ms--bg-white {
+    background-color: white;
+    color: #2c3e50;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+
+header {
+    height: 104px;
+}
 
 .navbar-default {
     height: 104px;
@@ -9,4 +33,33 @@
 .container {
     margin-top: 24px;
     margin-bottom: 24px;
+}
+
+.navbar .navbar-brand,
+.navbar .navbar-right > li > a {
+    color: white;
+    font-weight: 700;
+}
+
+.navbar .navbar-brand {
+    font-size: 24px;
+}
+
+.navbar .navbar-right > li > a {
+    font-size: 18px;
+}
+
+.navbar .navbar-brand:focus,
+.navbar .navbar-brand:hover {
+    color: white;
+}
+
+.navbar .navbar-right > li > a:hover{
+    color: #1abc9c;
+}
+
+.navbar .navbar-right > li > a:focus{
+    background-color: #1abc9c;
+    color: white;
+    border-radius: 5px;
 }
