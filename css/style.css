@@ -115,8 +115,9 @@ header {
 }
 
 #portfolio img {
-    max-width: 350px;
+    height: 250px;
     border-radius: 10px;
+    background-color: rgba(26,188,156,.9);
 }
 
 #portfolio img:hover {
@@ -125,8 +126,7 @@ header {
 }
 
 #portfolio .bg--verde-img {
-    background-color: rgba(26,188,156,.9);
-    max-width: 350px;
+    max-height: 250px;
     border-radius: 10px;
     margin-bottom: 50px;
 }
@@ -164,4 +164,37 @@ header {
 #contatti .ms--star::before,
 #contatti .ms--star::after {
     background-color: #2c3e50;
+}
+
+#contatti .ms--star {
+    margin-bottom: 100px;
+}
+
+#contatti li {
+ margin-left: 10%;
+ margin-right: 10%;
+ padding-bottom: 50px;
+ border-bottom: 1px solid #e9ecef;
+ margin-bottom: 50px;
+ color: #6c757d;
+}
+
+#contatti li:nth-child(4) {
+    padding-bottom: 200px;
+}
+
+#contatti li:last-child {
+    border-bottom: none;
+}
+
+#btn--contatti {
+    width: 100px;
+    color: white;
+    background-color: #1abc9c;
+    border: 2px solid #1abc9c;
+}
+
+#btn--contatti:hover {
+    background-color: #159a80;
+    border-color: #1abc9c;
 }
