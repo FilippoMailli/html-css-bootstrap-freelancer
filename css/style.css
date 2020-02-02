@@ -233,3 +233,10 @@ header {
     color: #117964;
     text-decoration: underline;
 }
+
+#barra--finale {
+    background-color: #1a252f;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
